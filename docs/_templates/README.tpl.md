@@ -4,7 +4,7 @@
 
 # ToolSDK MCP Registry
 
-**Your private, secure, and customizable MCP Registry — take full control of your tools.**
+**Stop building MCP servers from scratch. Discover, Deploy, and Manage <%= COUNT %>+ AI Tools in seconds.**
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@toolsdk.ai/registry">
@@ -41,6 +41,8 @@
   <a href="#install-via-package-manager">📦 <b>Use as SDK</b></a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="#submit-new-mcp-servers">➕ <b>Add Server</b></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://www.youtube.com/watch?v=J_oaDtCoVVo">🎥 <b>Video Tutorial</b></a>
 </p>
 
 <a href="https://toolsdk.ai">
@@ -70,6 +72,8 @@ Start the registry immediately with default settings:
 ```bash
 docker compose up -d
 ```
+
+> 💡 **Did this save you time?** Give us a [**Star on GitHub**](https://github.com/toolsdk-ai/toolsdk-mcp-registry) — it helps others discover this registry!
 
 **Optional Configuration:**
 - Set `MCP_SANDBOX_PROVIDER=LOCAL` in `.env` file if you want to disable the sandbox.
@@ -108,12 +112,6 @@ curl -X POST http://localhost:3003/api/v1/packages/run \
     "envs": {}
   }'
 ```
-
-**Use Cases:**
-- 🤖 Build AI agents with remote tool execution
-- 💬 Power chatbots with MCP server integrations
-- 🚀 Create serverless AI workflows
-- 🔧 Automate tasks with LLM-powered tools
 
 > 📖 For advanced deployment options and configuration, see the [DEVELOPMENT documentation](./docs/DEVELOPMENT.md#4--quick-start-with-docker).
 
@@ -242,19 +240,6 @@ This open-source registry provides:
 
 ---
 
-## 📚 Table of Contents
-
-- [🎥 Video: How to add a new MCP server](https://www.youtube.com/watch?v=J_oaDtCoVVo)
-- [🚀 Quick Start](#quick-start)
-  - [🐳 Docker Self-Hosting](#docker-self-hosting)
-  - [📦 Install via Package Manager](#install-via-package-manager)
-  - [📄 Submit New MCP Servers](#submit-new-mcp-servers)
-- [📖 Development Guide](./docs/DEVELOPMENT.md)
-- [🤝 Contributing Guide](./docs/guide.md)
-- [⭐ ToolSDK MCP Servers](#mcp-servers)
-
-<%= TOC %>
-
 <a id="submit-new-mcp-servers"></a>
 
 ## 🤝 Contribute Your MCP Server
@@ -307,8 +292,9 @@ Your MCP server will be:
 
 **<%= COUNT %>+ AI Agent Tools, LLM Integrations & Automation Servers**
 
-- ✅ **Validated & Tested** (<%=VALIDATED_COUNT %>) - Production-ready MCP servers
-- ⚙️ **Community Contributed** (<%=COUNT - VALIDATED_COUNT %>) - Requires configuration
+> ⭐ **Featured below**: Hand-picked, production-ready MCP servers verified by our team.
+>
+> 📚 **Looking for all <%= COUNT %>+ servers?** Check out [**All MCP Servers**](./docs/ALL-MCP-SERVERS.md) for the complete list.
 
 Browse by category: Developer Tools, AI Agents, Databases, Cloud Platforms, APIs, and more!
 
